@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.head {
+    padding-top: 15px;
+    margin: -4px;
+    width: 101%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+    top: -3px;
+}
+
+.one {
+    width: 110px;
+    height: 40px;
+    margin-left: 27px;
+    margin-top: 4px;
+    background-color: rgb(20, 165, 209);
+    border-color: unset;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.one:hover {
+    background-color: rgb(16, 135, 182);
+}
+
+.second {
+    width: 110px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: rgb(13, 197, 53);
+    border-color: unset;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.second:hover {
+    background-color: rgb(7, 150, 7);
+}
+
+.third {
+    width: 500px;
+    height: 35px;
+    margin-left: 50px;
+    font-size: 20px;
+    outline: none;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 6px;
+    left: -50px;
+}
+
+.logo {
+    width: 135px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    margin-left: 25px;
+}
+
+.left {
+    /*display: flex-left;*/
+    width: 260px;
+    height: 120px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.butt {
+    width: 270px;
+    height: 217px;
+    margin-top: 4px;
+    float: left;
+}
+
+.button {
+    width: 123px;
+    height: 35px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.butto {
+    text-decoration: none;
+    color: red;
+}
+
+.js {
+    width: 270px;
+}
+
+.half {
+    width: 300px;
+    height: 100%;
+    display: inline-block;
+}
+
+.mid {
+    width: 500px;
+    height: 600px;
+    margin-top: 100px;
+    background-color: wheat;
+    display: inline-flex;
+    position: relative;
+    top: -180px
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: -20;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
